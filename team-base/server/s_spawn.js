@@ -1,6 +1,6 @@
-on('s_onPlayerSpawn', () => {
+onNet('s_onPlayerSpawn', () => {
+    console.log('s_onPlayerSpawn event fired!');
     const source = global.source;
 
-    // this should be an array for now, not null
-    activeTeam[source] = [];
+    console.log(GetPlayerName(source));
 });
