@@ -1,0 +1,1 @@
+onNet('playerSpawned', emit);
