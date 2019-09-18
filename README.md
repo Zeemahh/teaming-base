@@ -1,0 +1,3 @@
+# Read this fucking shit before I actually scream at you!
+- Clone (or download+extract) this repository into a folder that is in your `resources/` directory, the folder name **must** be prefixed with '[' and suffixed with ']' so that you can easily update via `git pull`. 
+- Add `ensure team-base` to your server config or whatever so the resource gets started, not the folder that is being ignored. Do not change this name because it will fuck git shit up and updating will be miserable, not that there will be any updates to this but yea!
