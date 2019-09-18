@@ -1,1 +1,1 @@
-onNet('playerSpawned', emit);
+onNet('playerSpawned', emit('s_onPlayerSpawned'));
