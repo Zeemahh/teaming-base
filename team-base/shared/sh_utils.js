@@ -3,7 +3,7 @@ const DebugLog = (player = -1, message, severity = 0) => {
     let prefix = IsDuplicityVersion() ? `[${GetCurrentResourceName()}]` : '[TEAM-BASE]';
     switch (severity) {
         case 0:
-			prefix += ' [INFO]';
+            prefix += ' [INFO]';
             break;
 
         case 1:
@@ -14,8 +14,8 @@ const DebugLog = (player = -1, message, severity = 0) => {
             prefix += ' [ERROR]';
             break;
 
-		default:
+        default:
             prefix += ' [INFO]';
-			break;
+            break;
 	}
 };
